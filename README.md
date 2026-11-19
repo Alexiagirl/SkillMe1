@@ -1,23 +1,30 @@
+# Teelash — Personal Portfolio
 
-# SkillMe1
-
-## About the Project
-This is my first web development portfolio project. I am building it to practise my HTML and CSS skills and showcase my learning journey in Computer Science.
+## About
+A personal portfolio website showcasing my work, projects and skills as a beginner frontend developer.
 
 ## Technologies Used
 - HTML5
 - CSS3
+- JavaScript
 
 ## Features
-- About Me section
-- Projects section
-- Contact section
-- Responsive design
+- Responsive layout for mobile and desktop screens
+- Mobile hamburger navigation menu
+- Dynamically generated project cards using JavaScript
+- Project filtering by technology
+- Active filter button styling
+- Smooth scrolling navigation
 
-## Getting Started
-1. Download or clone this repository.
+## Projects
+1. About Me
+2. Titoni Culture
+3. Translator
+
+## How to Run
+1. Clone or download this repository.
 2. Open the project folder.
-3. Open index.html in your browser.
+3. Open `index.html` in your browser.
 
 ## Author
-Toluwalase Adeoti
+Teelash
