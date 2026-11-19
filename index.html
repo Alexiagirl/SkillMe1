@@ -11,11 +11,18 @@
         <nav class="navbar">
             <h1>Ｔｅｅｌａｓｈ</h1>
 
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            
+        <!-- Hamburger button -->
+        <button class="menu-toggle" aria-label="Toggle navigation"
+            aria-expanded="false">
+            ☰
+        </button>
+
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
         </nav>
     </header>
 
@@ -30,25 +37,22 @@
         </div>
         </section>
         <section id="projects">
-            <div class="project">
-                <div class="one">
-                    <img src="images/about.png" alt="">
-                    <h1><a href="#nothing"></a></h1>
-                    <p>This is a page about me.</p>
-                </div>
-                <div class="two">
-                    <img src="images/culture.png" alt="">
-                    <h1><a href="#nothing"></a></h1>
-                    <p>This is a page about the Titoni Culture.</p>
-                </div>
-                <div class="three">
-                    <img src="images/translate.png" alt="">
-                    <h1><a href="#nothing"></a></h1>
-                    <p>This is a page about a translator.</p>
-                </div>
-            </div>
 
-        </section>
+    <h1>My Projects</h1>
+
+    <!-- Filter buttons -->
+    <div class="project-filters">
+        <button class="filter-btn" data-filter="All">All</button>
+        <button class="filter-btn" data-filter="HTML">HTML/CSS</button>
+        <button class="filter-btn" data-filter="JavaScript">JavaScript</button>
+    </div>
+
+    <!-- JavaScript will put project cards here -->
+    <div class="project" id="project-container">
+
+    </div>
+
+</section>
         <section id="contact">
             <div>
                 <h1>You can contact me here.</h1>
@@ -62,6 +66,6 @@
         <p>&copy; 2026 My Portfolio</p>
     </footer>
 
-    
+    <script src="script.js"></script>
 </body>
 </html>

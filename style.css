@@ -124,3 +124,104 @@ footer{
 html {
     scroll-behavior: smooth;
 }
+/* Responsive layout for mobile phones */
+@media (max-width: 600px) {
+
+    /* About section */
+    #about {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #about img {
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    #about #lol {
+        margin-top: 10px;
+    }
+
+    #about #lol h1 {
+        font-size: 250%;
+    }
+
+    /* Navigation */
+    nav {
+        flex-wrap: wrap;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    /* Project cards */
+    .project {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project div {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 18px;
+    }
+}
+
+/* Hamburger button */
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Mobile navigation */
+@media (max-width: 600px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+}
+/* Project filter buttons */
+.project-filters {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 25px 0;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #eeeeee;
+    color: #333333;
+    transition: 0.3s;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background-color: #333333;
+    color: white;
+}
